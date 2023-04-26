@@ -1,0 +1,23 @@
+body{
+    background-color: #C0EEF2;
+}
+.heading{
+    text-align: center;
+    margin:30px 20px;
+}
+img{
+      
+    height:174px;
+    width:290px;
+    float:left;
+    margin-right: 15px;
+}
+
+p{
+    font-size:20px;
+}
+.body-container
+{
+    margin-left:10px;
+    margin-right:10px;
+}

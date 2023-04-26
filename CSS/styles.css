@@ -1,0 +1,158 @@
+body
+{
+  background-color:#C0EEF2;
+}
+h3
+{
+    font-size: 17px;
+    float: left;
+    font-family: 'Pacifico', cursive;
+    margin-top: 8px;
+}
+.topnav input[type=text] {
+  float: center;
+  padding: 6px;
+  border: none;
+  margin-top: 8px;
+  margin-right: 16px;  
+  font-size: 17px;
+}
+
+.topnav {
+    background-color: #C0EEF2;
+    overflow: hidden;
+    width: 100%; 
+    margin-top:0px;
+  
+}
+.topnav a {
+  float: left;
+  color: #14035b;
+  text-align: center;
+  padding: 14px 30px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.topnav a:hover {
+  background-color: #4fbbe9;
+  color: rgb(0, 0, 0);
+}
+.topright{
+  float: right;
+}
+.large{
+  height: 600px;
+  width:100%;
+  
+}
+.text{
+  position: absolute;
+  top: 50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  font-size:30px;
+  font-family: 'Pacifico', cursive;
+  color: #393053;
+  
+}
+.heading
+{
+  position: absolute;
+  top: 30%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  font-size:100px;
+  text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+}
+.blog-container
+{
+  display: flex;
+  justify-content:center;
+  align-items:center;
+  margin: 20px 0px;
+  flex-wrap: wrap;
+}
+.blog-box
+{
+  width: 290px;
+  border:2px solid black;
+  margin:20px;
+}
+.blog-img{
+  width:100%;
+  height:auto;
+}
+.blog-img img{
+  width: 275px;;
+  height:100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.blog-text{
+  padding:30px;
+  display:flex;
+  flex-direction: column;
+}
+.blog-text span{
+  color:#030206;
+  font-size: 0.9rem;
+}
+.blog-text .blog-title{
+  font-size: 1.3rem;
+  font-weight: 500;
+  color: #030206;
+  text-decoration: none;
+}
+.blog-text .blog-title:hover{
+  color:#0000FF;
+  transition: all ease 0.3s;
+}
+.blog-text p{
+  font-size: 0.9rem;
+  display:-webkit-box;
+  -webkit-line-clamp:3;
+  -webkit-box-orient:vertical;
+  overflow:hidden;
+  text-overflow: ellipsis;
+  margin:20px 0px;
+}
+.blog-text a{
+  color:#030206;
+  text-decoration: none;
+}
+.blog-text a:hover{
+  color:#0000FF;
+  transition: all ease 0.3s;
+}
+footer {
+  text-align: center;
+  padding: 15px;
+  background-color: black;
+  color: white;
+  margin:0;
+}
+.social-links{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1.4rem;
+}
+.social-links a{
+  border: 2px solid #fff;
+  color: #fff;
+  display: block;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  text-decoration: none;
+  margin: 0 0.3rem;
+  transition: all 0.5s ease;
+}
+
+.social-links a:hover{
+  background: #fff;
+  color: var(--exDark);
+}

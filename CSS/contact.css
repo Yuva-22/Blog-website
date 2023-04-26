@@ -1,0 +1,15 @@
+body{
+    background-color: #C0EEF2;
+}
+h1{
+    text-align: center;
+    color: black;
+}
+p{
+  padding: 4px;
+}
+.contact-box
+{
+  margin: 150px;
+  border:3px solid black;
+}
