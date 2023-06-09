@@ -11,26 +11,21 @@
     <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
     <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Blog</title>
 </head>
 <body>
-    <div class="topnav"> 
-        <h3>HomeDecor</h3>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 
-        <div class="topright">
-        <input type="text" placeholder="Explore..">
-        <a href="index.html">Home</a>
+    <div class="topnav" id="myTopnav"> 
+        <h3>HomeDecor</h3>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      
+        <a href="index.html" class="active">Home</a>
         <a href="contact.html">Contact</a>
         <a href="about.html">AboutUs</a>
-        </div>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+        </a>
     </div>
     <div class="firstdiv">
         <img class="large" src="Images/img12.jpg" alt="image">
-        <div class = "heading">
-            HomeDecor
-        </div>
-        <div class="text" >
-            "HOME IS WHERE EVERYTHING BEGINS...."  
-        </div>
     </div>
 
     <div class="blog-container">
@@ -250,6 +245,8 @@
         <p>&#169 Copyrights reserved 2023.</p>
 
     </footer>
+
+    <script src="script.js"></script>
            
     
 </body>
